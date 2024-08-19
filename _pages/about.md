@@ -8,7 +8,7 @@ profile:
   align: right
   image: profile.jpg
   image_circular: false # crops the image to make it circular
-  address: >
+  more_info: >
     <center>
     <a href="https://bit.ly/cy-gs">Google Scholar</a> | <a href="https://bit.ly/cy-cv">CV</a> | <a href="https://github.com/chiang-yuan">GitHub</a>
     <center>

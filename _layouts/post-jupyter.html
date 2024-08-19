@@ -7,14 +7,14 @@
   {%- if page.redirect -%}
     <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
   {%- endif -%}
-  {% include head.html %}
+  {% include head.liquid %}
   </head>
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
     <!-- Header -->
-    {%- include header.html %}
+    {%- include header.liquid %}
 
     <!-- _layouts/post-jupyter.html -->
     {%- assign year = page.date | date: "%Y" -%}
@@ -14624,23 +14624,23 @@
           {% include disqus.html %}
         {%- endif %}
         {%- if site.giscus.repo and page.giscus_comments -%}
-          {% include giscus.html %}
+          {% include giscus.liquid %}
         {%- endif -%}
       
       </div>
     </div>
 
     <!-- Footer -->
-    {%- include footer.html %}
+    {%- include footer.liquid %}
 
     <!-- JavaScripts -->
-    {% include scripts/jquery.html %}
-    {% include scripts/bootstrap.html %}
-    {% include scripts/masonry.html %}
-    {% include scripts/misc.html %}
-    {% include scripts/mathjax.html %}
-    {% include scripts/analytics.html %}
-    {% include scripts/progressBar.html %}
+    {% include scripts/jquery.liquid %}
+    {% include scripts/bootstrap.liquid %}
+    {% include scripts/masonry.liquid %}
+    {% include scripts/misc.liquid %}
+    {% include scripts/mathjax.liquid %}
+    {% include scripts/analytics.liquid %}
+    {% include scripts/progressBar.liquid %}
   </body>
 </html>
 
