@@ -13,10 +13,9 @@ profile:
     <a href="https://bit.ly/cy-gs">Google Scholar</a> | <a href="https://bit.ly/cy-cv">CV</a> | <a href="https://github.com/chiang-yuan">GitHub</a>
     <center>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 Welcome to my cyber nook! I am **Yuan Chiang** (江元, pronounced as 'You-and John'). I also go by the name **Cyrus**. Currently I am a PhD student in [Materials Science and Engineering](https://mse.berkeley.edu/) at [UC Berkeley](https://www.berkeley.edu/) and [Lawrence Berkeley National Laboratory](https://www.lbl.gov/), under the guidance of [Prof. Mark Asta](https://asta.mse.berkeley.edu/). I leverage quantum mechanical calculation and develop machine learning on supercomputers to drive our understanding and innovations in physical sciences. I recently work on the devlopement and benchmark of foundation machine-learning interatomic potential (MLIP) and use them as a probe to understand and design materials under extreme environments in Gen IV molten salt fission reactors (MSRs).
@@ -31,4 +30,4 @@ Welcome to my cyber nook! I am **Yuan Chiang** (江元, pronounced as 'You-and J
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
