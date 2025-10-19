@@ -27,7 +27,7 @@
       {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" style="max-width: 100%; height: auto; object-fit: contain;">
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           {%
@@ -36,6 +36,7 @@
             path=entry_path
             sizes = "200px"
             class="preview z-depth-1 rounded"
+            style="max-width: 100%; height: auto; object-fit: contain;"
             zoomable=true
             avoid_scaling=true
             alt=entry.preview
