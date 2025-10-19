@@ -155,6 +155,12 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 }
 
+// Emoji
+
+.emoji {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 // Caption
 
 .caption {
@@ -198,8 +204,7 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
-
+    // font-family: monospace;
     p {
       display: inline-block;
       margin: 0;
@@ -401,8 +406,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
-
+    font-size: 1.2rem;
     a {
       img {
         width: 3.2rem;
@@ -475,7 +479,7 @@ ul.task-list input[type="checkbox"] {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
-
+  text-align: center;
   .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;
@@ -495,8 +499,8 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-size: 0.9rem;
 
   .container {
@@ -551,10 +555,10 @@ footer.sticky-bottom {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 3rem;
-
+  font-family: 'DM Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 
@@ -571,7 +575,7 @@ footer.sticky-bottom {
     li {
       list-style: none;
       display: inline-block;
-      padding: 1rem 0.5rem;
+      // padding: 1rem 0.5rem;
       color: var(--global-text-color-light);
     }
   }
@@ -585,7 +589,7 @@ footer.sticky-bottom {
 
 .post-list {
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   padding: 0;
 
   li {
@@ -726,7 +730,12 @@ footer.sticky-bottom {
     margin-top: 2rem;
     text-align: right;
   }
-
+  .silent-link {
+    color: var(--global-text-color);
+    &:hover {
+      color: var(--global-hover-color);
+    }
+  }
   ol.bibliography {
     list-style: none;
     padding: 0;
@@ -797,10 +806,10 @@ footer.sticky-bottom {
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
+          padding-top: 0.1rem;
+          padding-bottom: 0.1rem;
           margin-left: 0;
 
           &:hover {
@@ -883,25 +892,31 @@ figure.highlight {
 }
 
 pre {
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
-
-  pre,
-  code {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Menlo", "Consolas", "DejaVu Sans Mono for Powerline", monospace;
+  pre, code {
     background-color: transparent;
     border-radius: 0;
     margin-bottom: 0;
     padding: 0;
+    font-family: "Menlo", "Consolas", "DejaVu Sans Mono for Powerline", monospace;
+    // font-family: "Monaco", "Consolas", "Lucida Console", "DejaVu Sans Mono for Powerline", monospace;
+    // font-family: "DejaVu Sans Mono for Powerline", "Monaco", "Consolas", "Lucida Console", monospace;
+    // font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
   }
 }
 
 code {
-  color: var(--global-theme-color);
+  // color: var(--global-text-color);
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
+  font-family: "Menlo", "Consolas", "DejaVu Sans Mono for Powerline", monospace;
 }
 
 // Transitioning Themes
@@ -914,14 +929,17 @@ html.transition *:after {
 }
 
 // Extra Markdown style (post Customization)
-.post {
-  .post-meta {
+.post{
+  .post-title{
+    font-family: 'DM Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .post-meta{
+    font-family: 'DM Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
     color: var(--global-text-color-light);
     font-size: 0.875rem;
     margin-bottom: 0;
   }
-
-  .post-tags {
+  .post-tags{
     color: var(--global-text-color-light);
     font-size: 0.875rem;
     padding-top: 0.25rem;
@@ -936,6 +954,110 @@ html.transition *:after {
       }
     }
   }
+  .post-content{
+    font-family: 'DM Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
+    // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    blockquote {
+      max-width: 100%;
+      border-left: 5px solid var(--global-theme-color);
+      padding: 8px;
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    iframe {
+      margin: auto;
+      display: block;
+      max-width: 100%;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    input {
+      margin-right: 0.5em;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+      margin-top: 1em; /* adjust to your desired value */
+      margin-bottom: 0.5em; /* adjust to your desired value */
+    }
+    .highlight {
+      pre.highlight {
+        code {
+          span {
+            font-family: "Menlo", "Consolas", "DejaVu Sans Mono for Powerline", monospace;
+          }
+        }
+      }
+    }
+  }
+  .post-jupyter {
+    // reset the paragraph back to global style
+    font-family: 'DM Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
+    .highlight {
+      background-color: var(--global-bg-color);
+    }
+    pre.highlight {
+      background-color: var(--global-code-bg-color);
+      .nc {
+        text-decoration: none;
+      }
+    }
+    p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      a {
+        color: var(--global-theme-color);
+        &:hover {
+          color: var(--global-theme-color);
+          text-decoration: underline;
+          text-decoration-color: var(--global-theme-color);
+        }
+        &:hover:after :not(.nav-item.dropdown) {
+          width: 100%;
+        }
+      }
+      strong {
+        font-weight: bold;
+      }
+    }
+    // fix conflicts between global and local styles
+    .jp-Cell-inputWrapper pre {
+      border-radius: 0;
+      background-color: var(--jp-cell-editor-background);
+      .nn {
+        text-decoration: none;
+      }
+    }
+    .jp-Cell-outputWrapper pre {
+      background-color: var(--global-bg-color);
+    }
+  }
+}
+
+.bmc-btn {
+  min-width: 210px;
+  color: #000000 !important;
+  background-color: #FFDD00 !important;
+  height: 60px;
+  border-radius: 12px;
+  font-size: 28px;
+  font-weight: Normal;
+  border: none;
+  padding: 0px 24px;
+  line-height: 27px;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center;
+  font-family: 'Cookie', cursive !important;
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  .bmc-btn-text {
+    color: #000000 !important;
+  } 
 }
 
 progress {

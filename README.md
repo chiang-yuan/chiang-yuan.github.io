@@ -231,6 +231,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
 
 ## Table Of Contents
 
+<<<<<<< HEAD
 <!--ts-->
 
 - [al-folio](#al-folio)
@@ -246,18 +247,38 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [Light/Dark Mode](#lightdark-mode)
     - [CV](#cv)
     - [People](#people)
+=======
+- [al-folio](#al-folio)
+  - [User community](#user-community)
+  - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
+  - [Table Of Contents](#table-of-contents)
+  - [Getting started](#getting-started)
+    - [Installation](#installation)
+      - [Local setup using Docker (Recommended on Windows)](#local-setup-using-docker-recommended-on-windows)
+      - [Local Setup (Standard)](#local-setup-standard)
+      - [Deployment](#deployment)
+      - [Upgrading from a previous version](#upgrading-from-a-previous-version)
+    - [FAQ](#faq)
+  - [Features](#features)
+>>>>>>> master
     - [Publications](#publications)
     - [Collections](#collections)
     - [Layouts](#layouts)
       - [The iconic style of Distill](#the-iconic-style-of-distill)
+<<<<<<< HEAD
       - [Full support for math &amp; code](#full-support-for-math--code)
       - [Photos, Audio, Video and more](#photos-audio-video-and-more)
+=======
+      - [Full support for math \& code](#full-support-for-math--code)
+      - [Photos](#photos)
+>>>>>>> master
     - [Other features](#other-features)
       - [GitHub's repositories and user stats](#githubs-repositories-and-user-stats)
       - [Theming](#theming)
       - [Social media previews](#social-media-previews)
       - [Atom (RSS-like) Feed](#atom-rss-like-feed)
       - [Related posts](#related-posts)
+<<<<<<< HEAD
       - [Code quality checks](#code-quality-checks)
   - [FAQ](#faq)
   - [Contributing](#contributing)
@@ -266,6 +287,11 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
   - [Star History](#star-history)
   - [License](#license)
   <!--te-->
+=======
+  - [Contributing](#contributing)
+    - [Maintainers](#maintainers)
+  - [License](#license)
+>>>>>>> master
 
 ## Getting started
 

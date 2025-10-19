@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - chiang-yuan
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - chiang-yuan/llamp
+  - atomind-ai/mlip-arena
+  - jax-md/jax-md
+  - materialsproject/pymatgen
+  - materialsproject/atomate2
+  - janosh/matbench-discovery
+  - chiang-yuan/prodar
+  - chiang-yuan/culsm
