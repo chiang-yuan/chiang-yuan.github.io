@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD candidate at UC Berkeley and LBNL | Berkeley Fellow | AI/ML + Computational Materials Science
+subtitle: <em>PhD candidate at UC Berkeley and LBNL / PhD Resident at Google X, The Moonshot Factory <br> AI/ML + Computational Materials Science<em>
 
 profile:
   align: right
